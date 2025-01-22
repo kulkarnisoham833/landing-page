@@ -1,9 +1,160 @@
+
+
 body {
   display: flex;
   flex-direction: column;
+  font-family: "Roboto";
+  margin: 0;
+  box-sizing: border-box;
+  
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.header, .footer, .part1 {
+  background-color: #1f2937;
+  color: white;
+  padding:  32px 20%;
+  margin: 0;
+}
+.header-left {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+.header-right {
+  display: flex;
+  gap: 16px;
+}
+
+.part1 {
+  display: flex;
+  gap: 5%;
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text1 > h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 0;
+  
+}
+.text1 > p {
+  font-size: 18px;
+  color: #b0b0b0;
+}
+.text1 > button {
+  background-color: #3882f6;
+  padding: 6px 24px;
+  font-size: 16px;
+  flex: 0;
+  align-self: start;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+img {
+  width: 50%;
+  height: auto;
+}
+
+.part2 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30%;
+}
+.part2 > h2 {
+  text-align: center;
+  padding: 24px;
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+
+}
+.part2 img {
+  width: 150px;
+  height: auto;
+  border-color: #3882f6;
+  border-radius: 4px;
+  border-style: solid;
+}
+.carousel-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.carousel-element p {
+  font-size:18px;
+  color: gray;
+  
+}
+.carousel-element * {
+  margin: 4px;
+}
+
+.part3 {
+  padding: 10% 25%; /* Maybe consider padding: 40% */ 
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 200;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+}
+.part3 * {
+  margin: 0;
+}
+.part3 > b {
+  font-size: 24px;
+  margin-left: auto;
+}
+
+.part4 {
+  display: flex;
+  justify-content: center; 
+  background-color: #3882f6;
+  margin: 0 20% 72px 20%;
+  border-radius: 8px;
+  align-items: center;
+  gap: 32px;
+  padding: 28px;
+}
+.part4 > button {
+  background-color: #3882f6;
+  padding: 6px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  border: solid white;
+}
+.calltoaction {
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+  gap: 0;
+}
+.calltoaction > p {
+  color: #e4e4e4;
+}
+.calltoaction > p {
+  margin-top: 0;
+} .calltoaction > h3 {
+  margin-bottom: 0;
+}
+
+.footer {
+  text-align: center;
 }
